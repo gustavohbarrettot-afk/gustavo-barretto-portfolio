@@ -43,7 +43,7 @@ def load_content():
         ("Vercel", "vercel", "Ferramentas", "Publicação"), ("APIs", "api", "Backend", "Em desenvolvimento"),
         ("Inteligência Artificial", "ai", "IA", "Uso aplicado e estudo")]
     return {"profile": profile, "projects": projects, "technologies": technologies,
-            "real_projects": sum(not p["concept"] for p in projects),
+            "real_projects": len(projects),
             "whatsapp_url": f"https://wa.me/{profile['whatsapp']}?text={quote(profile['message'])}"}
 
 def build():
@@ -53,3 +53,4 @@ def build():
 
 if __name__ == "__main__":
     build()
+

@@ -1,6 +1,1 @@
-// O conteúdo permanece acessível mesmo se alguma biblioteca não carregar.
-document.documentElement.classList.add('js');
-window.portfolioIntroFailsafe = setTimeout(() => {
-  document.documentElement.classList.add('intro-done');
-  document.querySelectorAll('[data-intro-inert]').forEach(el => { el.inert = false; });
-}, 3500);
+(function(){const root=document.documentElement;const get=(key,fallback)=>localStorage.getItem(key)||fallback;root.dataset.theme=get('gh-theme','dark');root.lang=get('gh-language','pt');root.classList.add(get('gh-motion','on')==='off'?'motion-paused':'motion-enabled');})();

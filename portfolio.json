@@ -1,8 +1,9 @@
 {
   "name": "Gustavo Barretto",
-  "draft": false,
+  "brand": "GH",
+  "digital_identity": "GHBarretto",
   "whatsapp": "5571999405045",
-  "message": "Olá, Gustavo! Vi seu portfólio e gostaria de solicitar um orçamento para um projeto de programação. Podemos conversar?",
+  "message": "Olá, Gustavo! Vi seu portfólio e gostaria de solicitar um orçamento para um projeto de desenvolvimento. Podemos conversar?",
   "email": "gustavohbarrettot@gmail.com",
   "github": "https://github.com/gustavohbarrettot-afk",
   "github_username": "gustavohbarrettot-afk",
@@ -10,7 +11,3 @@
   "photo": "",
   "avatar": "/static/img/github-avatar.jpg"
 }
-
-
-
-
